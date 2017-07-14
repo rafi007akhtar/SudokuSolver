@@ -1,12 +1,14 @@
 # SudokuSolver
 
-My footsteps into Artificial Intelligence as I make this Sudoku Solver while learning AI online for the first time.
+This repository contains an AI agent that can arguably solve any Sudoku puzzle in the world.
 
 ### In order to try this out, your PC needs to have:
 
 1. **Python 3 interpreter** (preferebly 3.6 or above).
 2. An IDE that runs Python projects, like **PyCharm** or **Visual Studio**. I used Visual Studio 2017 (Community).
 3. (Optional) **Pygame**. Without Pygame, the program would still run, but you won't see any visualizations, only results in the console.
+
+Illustrative images can be found in the **screenshots** folder here: https://github.com/rafi007akhtar/SudokuSolver/tree/master/screenshots.
 
 ### To use this agent,
 
