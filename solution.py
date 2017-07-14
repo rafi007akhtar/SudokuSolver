@@ -234,11 +234,15 @@ def solve(grid):
 
     values = grid_values(diag_sudoku_grid)
     values = search(values)
+
+    print("\nSolved board")
+    display(values)
         
     return values
 
 if __name__ == '__main__':
     diag_sudoku_grid = '2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3'
+    #diag_sudoku_grid = '.2.986.1.6...5...9...1.3...3.1...6.285.....412.6...9.3...8.5...5...2...4.6.437.9.'
     solve(diag_sudoku_grid)
 
     try:
