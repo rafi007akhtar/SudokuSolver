@@ -3,20 +3,27 @@
 This repository contains an AI agent that can arguably solve any Sudoku puzzle in the world.
 
 ## Demo
-![](https://github.com/rafi007akhtar/SudokuSolver/solving.gif)
+This is how you would run the project in VS Code.
 
-### In order to try this out, your PC needs to have:
+![](https://raw.githubusercontent.com/rafi007akhtar/SudokuSolver/master/solving.gif)
 
-1. **Python 3 interpreter** (preferebly 3.6 or above).
-2. An IDE that runs Python projects, like **PyCharm** or **Visual Studio**. I used Visual Studio 2017 (Community).
-3. (Optional) **Pygame**. Without Pygame, the program would still run, but you won't see any visualizations, only results in the console.
+## Prerequisites
+In order to try this out, your computer needs to have:
 
-Illustrative images can be found in the **screenshots** folder here: https://github.com/rafi007akhtar/SudokuSolver/tree/master/screenshots.
+1. **Python 3 interpreter** (preferebly 3.4 or above).
+2. An **text-editor** or an IDE. (I used _Visual Studio Code_.)
+3. A **Terminal** / CMD (VS Code has one built-in).
+3. (Optional) **Pygame**. Without Pygame, the program would still run, but you will only be able to see the solved board on the terminal, and _not_ the visualizations.
 
-### To use this agent,
+## Installation
 
 1. Clone the repository.
-2. Open using Visual Studio (didn't try with PyCharm, so not sure if it'd work with it).
-3. Right click on `solutions.py`, and click `Debug`
+2. Open a Terminal / CMD.
+2. `cd` your way through the root of the repository.
+4. Enter the following command.
+    ```
+        python solution.py
+    ```
+(If the above command didn't work, try replacing `python` with `python3`.)
 
 To try it out with some other input, open `source.py` and re-assign the varaible `diag_sudoku_grid` to your input board. The input is one, uninterrupted string with no spaces. The numbers are the numbers given on the board *row-wise*, and the periods represent an unfilled cell.
