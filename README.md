@@ -26,4 +26,4 @@ In order to try this out, your computer needs to have:
     ```
 (If the above command didn't work, try replacing `python` with `python3`.)
 
-To try it out with some other input, open `source.py` and re-assign the varaible `diag_sudoku_grid` to your input board. The input is one, uninterrupted string with no spaces. The numbers are the numbers given on the board *row-wise*, and the periods represent an unfilled cell.
+To try it out with some other input, open `solution.py` and re-assign the varaible `diag_sudoku_grid` to your input board. The input is one, uninterrupted string with no spaces. The numbers are the numbers given on the board *row-wise*, and the periods represent an unfilled cell.
