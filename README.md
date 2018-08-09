@@ -3,7 +3,7 @@
 This repository contains an AI agent that can arguably solve any Sudoku puzzle in the world.
 
 ## Demo
-![](https://github.com/rafi007akhtar/SudokuSolver/objects/solving.gif)
+![](https://github.com/rafi007akhtar/SudokuSolver/solving.gif)
 
 ### In order to try this out, your PC needs to have:
 
